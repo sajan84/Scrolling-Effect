@@ -1,0 +1,35 @@
+body{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+   
+}
+.div{
+    
+    background-image: url(/sergio-rota-WgipvnuZ8EQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+.row1{
+    opacity: 0;
+    transform: scale(0);
+    transition: all 3s;
+    color: white;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
+    
+}
+h1{
+    
+    font-size: 15rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px blue;
+    text-align: center;
+}
